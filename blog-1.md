@@ -1,0 +1,3 @@
+Why is any Called a "Type Safety Hole" and Why is unknown Safer?
+
+In my opinion, any and unknown looks almost same, but there is a big difference. When we use any, TypeScript don't check the type anymore, so we can do anything with that value and sometimes it can make runtime errors. That's why many developers call any a "type safety hole". But unknown is more safe because before using the value, we need to check what type it is. We can use typeof for this, and this process is called type narrowing. I like using unknown because it helps avoid many small mistakes and makes the code more safe.

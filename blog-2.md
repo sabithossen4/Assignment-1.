@@ -1,0 +1,3 @@
+How Do Generics Help Build Reusable and Type-Safe Code?
+
+I think Generics is one of the most useful feature in TypeScript. It helps us write one function or component that can work with different types of data, so we don't need to write same code again and again. For example, with a generic function like identity<T>(value: T): T, we can pass a string, number, or any other type and it will still work correctly. The good thing is TypeScript also keeps the correct type, so there is less chance of making mistakes. In my experience, Generics make the code more clean, reusable, and easy to manage, specially when the project becomes bigger.
